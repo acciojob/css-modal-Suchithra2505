@@ -10,7 +10,21 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
+<div class="w3-container">
+  <h2>CSS Modal</h2>
+  <button onclick="document.getElementById('openModal').style.display='block'" class="w3-button w3-black">Open Modal</button>
 
+  <div id="openModal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header"><h2>Modal Header</h2></div>
+		<div class="modalbody">
+        <button onclick="document.getElementById('openModal').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+        <p>Modal Body Content</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 </body>
 
 </html>
